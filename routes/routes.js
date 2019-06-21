@@ -1,7 +1,8 @@
-module.exports = function(App) {
+module.exports = function(app) {
 
 //Index page - primary route
 app.get("/", function(req, res) {
-    console.log(res);
+    res.send("Hello World");
+
 });
 };
