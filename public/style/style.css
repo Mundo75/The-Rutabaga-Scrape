@@ -1,0 +1,75 @@
+body {
+    background-color: #666666;
+
+}
+
+.navbar {
+    background-color: black;
+    color: #ffc72c;
+    border-bottom: #ffc72c solid 5px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    color: #ffc72c;
+    
+}
+
+a {
+    color: #ffc72c;
+        
+}
+
+#getStories{
+    background-color: #ffc72c;
+    color: #8e0c3a;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#jumbo {
+    background-color: #8e0c3a;
+    color: #ffc72c;
+    font-family: 'Vast Shadow', cursive;
+    border: #ffc72c solid 5px;
+        
+}
+
+#title {
+    font-size: 80px;
+}
+
+.panel {
+    background-color: #8e0c3a;
+    border: #ffc72c solid 5px;
+}
+
+.panel-title {
+    background-color: #8e0c3a;
+    color: #ffc72c;
+}
+
+.panel-body{
+    color: #ffc72c;
+}
+
+.panel-footer {
+    background-color: #666666;
+    color: #ffc72c;
+}
+
+#panelButton1 {
+    background-color: #8e0c3a;
+    color: #ffc72c;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
+#panelButton2 {
+    background-color: #ffc72c;
+    color: #8e0c3a;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 10px;
+}
