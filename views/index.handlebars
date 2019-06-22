@@ -8,7 +8,7 @@
 
     </div>
 
-    <div id="articleContainer">
+    <div id="storyDiv">
 
         {{#each data}}
 
@@ -24,7 +24,7 @@
 
             <div class="panel-footer clearfix">
 
-                <a class="btn btn-success pull-right save-article" id="panelButton1">Keep It!</a>
+                <a class="btn btn-success pull-right archiveStory" id="panelButton1">Keep It!</a>
 
                 <a href="{{url}}" target="_blank" class="btn btn-default pull-right" id="panelButton2">Read It!</a>
 
@@ -44,7 +44,7 @@
 
 
 
-<div id="alertModal" class="modal fade" role="dialog">
+<div id="popUpModal" class="modal fade" role="dialog">
 
     <div class="modal-dialog modal-md">
 
@@ -60,7 +60,7 @@
 
             <div class="modal-body text-center">
 
-                <h2 id="alertMessage"></h2>
+                <h2 id="alertPopUp"></h2>
 
             </div>
 

@@ -88,7 +88,7 @@ module.exports = function(app) {
                     });
                 }).catch(function(error) {
                     res.status(200).send({
-                        "Alert": "${error.alert}"
+                        "alert": "${error.alert}"
                     });
                 });
 
