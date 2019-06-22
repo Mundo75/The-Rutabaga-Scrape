@@ -14,7 +14,7 @@ let StorySchema = new Schema (
         url: {
             type: String
         },
-        saved: {
+        archived: {
             type: Boolean
         },
         notes: [
