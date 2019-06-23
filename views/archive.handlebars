@@ -2,13 +2,13 @@
 
     <div class="jumbotron text-center" id="jumbo">
 
-        <h1>Saved Stories</h1>
+        <h1>Story Archive</h1>
 
         <img src="/public/images/logo.jpg" alt="rutabaga">
 
     </div>
 
-    <div id="savedArticlesContainer">
+    <div id="archiveStoryDiv">
 
         {{#each data}}
 
@@ -24,9 +24,9 @@
 
             <div class="panel-footer clearfix">
 
-                <a class="btn btn-danger pull-right delete-article" id="panelButton1">Trash Stories</a>
+                <a class="btn btn-danger pull-right deleteStory" id="panelButton1">Trash Stories</a>
 
-                <a class="btn btn-default pull-right view-comments" id="panelButton2">Reader Comments</a>
+                <a class="btn btn-default pull-right readNotes" id="panelButton2">Reader Comments</a>
 
             </div>
 
@@ -34,7 +34,7 @@
 
         {{else}}
 
-        <h3 class="text-center">No articles to display!</h3>
+        <h3 class="text-center">Nothing to See Here! Please Disperse!</h3>
 
         {{/each}}
 
@@ -54,13 +54,13 @@
 
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
 
-                <h4 class="modal-title">Story Notes for <span id="articleId"></span></h4>
+                <h4 class="modal-title">Keep Notes for <span id="storyId"></span></h4>
 
             </div>
 
             <div class="modal-body text-center">
 
-                <ul id="articleNotesList" class="list-group"></ul>
+                <ul id="storyNotes" class="list-group"></ul>
 
                 <textarea id="noteText" rows="3" class="form-control" placeholder="Enter note here"></textarea>
 
@@ -68,7 +68,7 @@
 
             <div class="modal-footer clearfix">
 
-                <button id="saveNote" type="button" class="btn btn-success pull-right" data-dismiss="modal">Save
+                <button id="archiveNote" type="button" class="btn btn-success pull-right" data-dismiss="modal">Keep
                     Note</button>
 
             </div>
